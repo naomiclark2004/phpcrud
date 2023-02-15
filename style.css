@@ -1,0 +1,15 @@
+.card-img-top {
+    width: auto;
+    height: 200px;
+    background-color: #d8d8d8;
+    border: var(--bs-card-border-width) solid #d8d8d8;
+
+}
+
+.card {
+    padding: 0;
+}
+
+#follow:visited {
+    color: rgb(0, 38, 94) !important;
+}
