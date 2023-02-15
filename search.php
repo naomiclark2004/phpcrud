@@ -43,7 +43,7 @@ if (isset($_GET['handle'])) {
     <div class="panel" id="followers">
         <div class="panel-heading">
             <h3 class="panel-title mb-5 text-center">
-                Followers
+                Users
             </h3>
         </div>
         <?php
