@@ -75,7 +75,7 @@ if (isset($_GET['handle'])) {
             style='font-size:30px; text-decoration:none; color:black; width: 300px; background-color: #1DA1F2;'>+</a>
     </div>
 
-    <div class="row justify-content-evenly mt-5 mb-3">
+    <div class="row justify-content-center mt-5 mb-3">
 
         <?php
         if (isset($_GET['handle'])) {
@@ -93,7 +93,7 @@ if (isset($_GET['handle'])) {
                         $post_id = $row['id'];
                         $blog_text = $row['blog_text'];
                         $post_date = $row['post_date'];
-                        echo " <div class='card mb-3' style='width: 18rem;'>
+                        echo " <div class='card m-2' style='width: 18rem;'>
                 <div class='card-body'>
                     <div class='media mb-3 d-flex py-2 justify-content-between border-bottom'>
                         <div class='media-body ml-3'>

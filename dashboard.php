@@ -40,10 +40,11 @@ if (isset($_GET['handle'])) {
     </div>
 </nav>
 
+<h3 class="panel-title mb-5 text-center">
+    Dashboard
+</h3>
+
 <div class="container mt-5 mb-5">
-    <h3 class="panel-title mb-5 text-center">
-        Dashboard
-    </h3>
     <div class="d-flex flex-column">
         <div class="col-lg-6" style="margin: 0 auto; width: 50%;">
             <div class="card mb-4">
