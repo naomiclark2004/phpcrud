@@ -41,7 +41,7 @@ if (isset($_POST['post'])) {
 
         <div class="card" style="width: 50%;">
             <form class="form" action="" method="post">
-                <div class="card-body ">
+                <div class="card-body">
                     <div class="media mb-5 d-flex justify-content-between">
                         <div class="media-body ml-3">
                             @

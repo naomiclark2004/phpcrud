@@ -19,7 +19,7 @@ if (isset($_GET['handle'])) {
 
 ?>
 
-<nav class="navbar  navbar-light flex-column flex-md-row bd-navbar" style="margin: 25px;">
+<nav class="navbar navbar-light flex-column flex-md-row bd-navbar" style="margin: 25px;">
     <a class="navbar-brand" href="">Social</a>
     <div id="navbarNav">
         <ul class="navbar-nav flex-row" style="column-gap: 15px;">
