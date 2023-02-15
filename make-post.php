@@ -37,7 +37,7 @@ if (isset($_POST['post'])) {
 
 <body style="background-color:#3b7bd0;">
     <h1 class="text-center mt-5 text-white ">Make Post</h1>
-    <div class="d-flex container mt-5 mb-5 justify-content-center">
+    <div class="d-flex flex-column mt-5 mb-5 align-items-center">
 
         <div class="card" style="width: 50%;">
             <form class="form" action="" method="post">
@@ -50,13 +50,18 @@ if (isset($_POST['post'])) {
                     </div>
                     <div class="container d-flex justify-content-center mb-4 mt-4">
                         <textarea id="blog_text" name="blog_text" rows="5" cols="300" class="form-control"
-                            style="border-color: grey; border-radius: var(--bs-border-radius); border-color: var(--bs-border-color-translucent);" placeholder="Share your thoughts..."></textarea>
+                            style="border-color: grey; border-radius: var(--bs-border-radius); border-color: var(--bs-border-color-translucent);"
+                            placeholder="Share your thoughts..."></textarea>
                     </div>
                     <div class="container d-flex justify-content-end">
                         <button class="btn btn-primary" type="submit" name="post">Post</button>
                     </div>
                 </div>
             </form>
+        </div>
+
+        <div class="container mt-5 p-2 w-50">
+            <a class="btn btn-light" href="/phpcrud/user.php?handle=<?php echo $handle ?>">Back</a>
         </div>
     </div>
 </body>
