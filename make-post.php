@@ -35,7 +35,7 @@ if (isset($_POST['post'])) {
 ?>
 
 
-<body style="background-color:#3b7bd0;">
+<body style="background-color:#687E8D;">
     <h1 class="text-center mt-5 text-white ">Make Post</h1>
     <div class="d-flex flex-column mt-5 mb-5 align-items-center">
 
@@ -54,7 +54,7 @@ if (isset($_POST['post'])) {
                             placeholder="Share your thoughts..."></textarea>
                     </div>
                     <div class="container d-flex justify-content-end">
-                        <button class="btn btn-primary" type="submit" name="post">Post</button>
+                        <button class="btn primary" type="submit" name="post">Post</button>
                     </div>
                 </div>
             </form>

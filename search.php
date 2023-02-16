@@ -19,8 +19,10 @@ if (isset($_GET['handle'])) {
 
 ?>
 
-<nav class="navbar navbar-light flex-column flex-md-row bd-navbar" style="margin: 25px;">
-    <a class="navbar-brand" href="">Social</a>
+<nav class="navbar navbar-light flex-column flex-md-row bd-navbar" style="margin: 25px 50px;">
+    <a class="navbar-brand fadein" href="/phpcrud/user.php?handle=<?php echo $handle ?>">
+        <img src="logo.png" width="100px">
+    </a>
     <div id="navbarNav">
         <ul class="navbar-nav flex-row" style="column-gap: 15px;">
             <li class="nav-item active">

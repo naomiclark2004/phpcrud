@@ -33,14 +33,19 @@ if (isset($_POST['create'])) {
 }
 ?>
 
-<div class="container w-50 mt-5">
-    <!-- login or Social Name-->
-    <h1 class="header">Hello,</h1>
-    <p class="text">
-        Enter your information below to create a new account!
-    </p>
-    <div class="container">
-        <form action="" method="post">
+<div class="container w-70 mt-5 d-flex">
+    <div class="d-flex flex-column align-items-center justify-content-center  w-50">
+        <img class="fadein" src="logo.png" width="250px" height="250px">
+
+        <div class="d-flex flex-column" >
+            <h1 class="header text-start" style="color: #687E8D;">Hello,</h1>
+            <p class="text">
+                Enter your information to create a new account!
+            </p>
+        </div>
+    </div>
+    <div class="container  w-50 my-5">
+        <form action="" method="post" class="mt-5 p-5 border" style="border-radius: 30px;">
             <div class="form-group">
                 <label for="firstname" class="form-label">First Name</label>
                 <input type="text" name="firstname" class="form-control" required placeholder="First Name">
@@ -69,16 +74,15 @@ if (isset($_POST['create'])) {
             </div>
 
             <div class="form-group">
-                <input type="submit" name="create" class="btn btn-primary mt-2" value="Submit">
+                <input type="submit" name="create" class="btn primary mt-2" value="Submit">
             </div>
         </form>
+
+        <footer class="footer mt-5"> Already have a account?
+            <a href="sign-in.php" class="mt-2">Sign In</a>
+        </footer>
     </div>
 
-    </form>
-
-    <footer class="footer mt-5"> Already have a account?
-        <a href="sign-in.php" class="mt-2">Sign In</a>
-    </footer>
     </body>
 
     </html>

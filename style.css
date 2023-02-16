@@ -1,3 +1,45 @@
+.fadein {
+    animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        scale: 0;
+    }
+
+    60%{
+        scale: 1.2;
+    }
+
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.welcome{
+    animation: slide 3s;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        margin-left: -500px;
+    }
+
+    10% {
+        opacity: 0;
+        margin-left: -100px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 0px;
+    }
+}
+
+
 .card-img-top {
     width: auto;
     height: 200px;
@@ -11,5 +53,28 @@
 }
 
 #follow:visited {
-    color: rgb(0, 38, 94) !important;
+    color: #687E8D !important;
+}
+
+.primary {
+    background-color: #687E8D !important;
+    color: white !important;
+}
+
+.nav-link {
+    color: #BAC7CD !important;
+}
+
+.nav-link:hover {
+    color: #687E8D !important;
+}
+
+a {
+    color: #687E8D !important;
+}
+
+.btn-danger {
+    background-color: #A14F59 !important;
+    color: white !important;
+    border-color: #A14F59;
 }

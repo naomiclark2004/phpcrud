@@ -17,10 +17,10 @@ if (isset($_POST['search'])) {
     }
     ;
 
-    if($correct === $pass){
+    if ($correct === $pass) {
         echo "<script type='text/javascript'>alert('Right')</script>";
-         header("Location: http://localhost:8081/phpcrud/user.php?handle=$handle");
-    }else {
+        header("Location: http://localhost:8081/phpcrud/user.php?handle=$handle");
+    } else {
         echo "<script type='text/javascript'>alert('Wrong!')</script>";
     }
     ;
@@ -29,11 +29,13 @@ if (isset($_POST['search'])) {
 
 <div class="container w-50 mt-5">
     <!-- login or Social Name-->
-    <h1 class="header">Welcome back,</h1>
-    <p class="text">
-        Enter your information below to sign in!
-    </p>
-    <div class="container">
+    <div class="pt-5 welcome" >
+        <h1 class="header" style="color: #687E8D;">Welcome back,</h1>
+        <p class="text">
+            Enter your information below to sign in!
+        </p>
+    </div>
+    <div class="container welcome">
         <form action="" method="post">
             <div class="form-group">
                 <label for="handle" class="form-label">Username</label>
@@ -48,7 +50,7 @@ if (isset($_POST['search'])) {
             </div>
 
             <div class="form-group">
-                <input type="submit" name="search" class="btn btn-primary mt-2" value="Submit">
+                <input type="submit" name="search" class="btn primary mt-2" value="Submit">
             </div>
         </form>
 
@@ -58,7 +60,7 @@ if (isset($_POST['search'])) {
 
     </form>
 
-    <footer class="footer mt-5"> Need an account?
+    <footer class="footer mt-5 welcome"> Need an account?
         <a href="index.php" class="mt-2">Sign Up</a>
     </footer>
     </body>

@@ -19,8 +19,10 @@ if (isset($_GET['handle'])) {
 ?>
 
 
-<nav class="navbar  navbar-light flex-column flex-md-row bd-navbar" style="margin: 25px;">
-    <a class="navbar-brand" href="">Social</a>
+<nav class="navbar  navbar-light flex-column flex-md-row bd-navbar" style="margin: 25px 50px;">
+    <a class="navbar-brand fadein" href="">
+        <img src="logo.png" width="100px">
+    </a>
     <div id="navbarNav">
         <ul class="navbar-nav flex-row" style="column-gap: 15px;">
             <li class="nav-item active">
@@ -46,7 +48,7 @@ if (isset($_GET['handle'])) {
         <div class="card" style="width: 80%;">
             <div class="card-body pb-0">
                 <div class="d-flex justify-content-center align-items-center rounded"
-                    style="height: 140px; background-color: #1DA1F2;">
+                    style="height: 140px; background-color: #687E8D;">
                 </div>
                 <div class="d-flex justify-content-end">
                     <a class='btn btn-light m-2' href="/phpcrud/profile-setting.php?handle=<?php echo $handle ?>">Edit
@@ -58,7 +60,8 @@ if (isset($_GET['handle'])) {
                     <?php echo $fname ?>
                     <?php echo $lname ?>
                 </h4>
-                <p class="mb-0 text-start">@<?php echo $handle ?>
+                <p class="mb-0 text-start">@
+                    <?php echo $handle ?>
                 </p>
                 <p class="mb-0 mt-3 text-start">
                     <?php echo $bio ?>
@@ -72,7 +75,7 @@ if (isset($_GET['handle'])) {
 
     <div class="d-flex justify-content-center align-items-center rounded" style="height: 50px;">
         <a href='make-post.php?handle=<?php echo $handle ?>' class='rounded text-center'
-            style='font-size:30px; text-decoration:none; color:black; width: 300px; background-color: #1DA1F2;'>+</a>
+            style='font-size:30px; text-decoration:none; color:white!important; width: 300px; background-color: #687E8D;'>+</a>
     </div>
 
     <div class="row justify-content-center mt-5 mb-3">

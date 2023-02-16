@@ -112,7 +112,7 @@ if (isset($_POST['change'])) {
             </div>
             <div class="row">
                 <div class="col d-flex justify-content-end">
-                    <button class="btn btn-primary" type="submit" name="change">Save Changes</button>
+                    <button class="btn primary" type="submit" name="change">Save Changes</button>
                 </div>
             </div>
         </form>
@@ -122,5 +122,5 @@ if (isset($_POST['change'])) {
 </div>
 
 <div class="container mt-5 p-2">
-    <a class="btn btn-primary" href="/phpcrud/user.php?handle=<?php echo $handle ?>">Back</a>
+    <a class="btn primary" href="/phpcrud/user.php?handle=<?php echo $handle ?>">Back</a>
 </div>

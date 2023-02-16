@@ -21,7 +21,9 @@ if (isset($_GET['handle'])) {
 ?>
 
 <nav class="navbar  navbar-light flex-column flex-md-row bd-navbar" style="margin: 25px 50px;">
-    <a class="navbar-brand" href="/phpcrud/user.php?handle=<?php echo $handle ?>">Social</a>
+    <a class="navbar-brand fadein" href="/phpcrud/user.php?handle=<?php echo $handle ?>">
+        <img src="logo.png" width="100px">
+    </a>
     <div id="navbarNav">
         <ul class="navbar-nav flex-row" style="column-gap: 15px;">
             <li class="nav-item active">
@@ -60,7 +62,7 @@ if (isset($_GET['handle'])) {
                         </div>
                     </div>
                     <p class="border-top pt-3">
-                        Welcome to this social media app! Thank you for joining!
+                        Welcome to The Social Hub! Thank you for joining!
                     </p>
                 </div>
             </div>
